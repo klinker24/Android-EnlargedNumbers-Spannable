@@ -1,4 +1,4 @@
-# Android EnlargedNumbers-SpannableBuilder
+# Enlarged Numbers Spannable
 
 ![Screenshot](preview.png)
 
