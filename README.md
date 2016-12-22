@@ -38,11 +38,14 @@ Download the source code and import it as a library project in Eclipse. The proj
 
 ## Example Usage
 
-Functionality can be found in the example's [MainActivity](https://github.com/klinker24/Android-EnlargedNumbers-Spannable/blob/master/example/src/main/java/com/klinker/android/enlarged_numbers_example/MainActivity.java)
+Functionality can be found in the example's [MainActivity](https://github.com/klinker24/Android-EnlargedNumbers-Spannable/blob/master/example/src/main/java/xyz/klinker/enlarged_numbers_example/MainActivity.java). It is extremely simple to use:
 
 ```java
-
+EnlargedNumbersString str = EnlargedNumbersFactory.build(getString(R.string.test_string), 1.5, false);
+textView.setText(str);
 ```
+
+The `build` method accepts a required `CharSequence`, then an optional number scale multiplier and flag for whether or not the number should be bolded.
 
 ## Contributing
 
